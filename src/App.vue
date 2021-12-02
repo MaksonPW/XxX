@@ -47,7 +47,7 @@
       links: [
         {title:"Форум", icon:"mdi-forum", url:"/forum"},
         {title:"Регистрация", icon:"mdi-account-plus", url:"/reg"},
-        {title:"Вход", icon:"mdi-account-arrow-right", url:"/loggin"},
+        {title:"Вход", icon:"mdi-account-arrow-right", url:"/login"},
       ],
       menu: [
         {title:"Статистика", icon:"mdi-badge-account-horizontal", url:"/stats"},
