@@ -46,7 +46,7 @@
     return {
       drawer: false,
       links: [
-        {title:"Форум", icon:"mdi-forum", url:"/forum"},
+        {title:"Заказы", icon:"mdi-forum", url:"/Orders"},
         {title:"Регистрация", icon:"mdi-account-plus", url:"/Registration"},
         {title:"Вход", icon:"mdi-account-arrow-right", url:"/login"},
       ],
