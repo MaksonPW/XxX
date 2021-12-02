@@ -46,7 +46,7 @@
       drawer: false,
       links: [
         {title:"Форум", icon:"mdi-forum", url:"/forum"},
-        {title:"Регистрация", icon:"mdi-account-plus", url:"/reg"},
+        {title:"Регистрация", icon:"mdi-account-plus", url:"/Registration"},
         {title:"Вход", icon:"mdi-account-arrow-right", url:"/login"},
       ],
       menu: [
