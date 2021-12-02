@@ -54,7 +54,7 @@
         {title:"Статистика", icon:"mdi-badge-account-horizontal", url:"/stats"},
         {title:"Банковские счета", icon:"mdi-bank-outline", url:"/bank"},
         {title:"Защита аккаунта", icon:"mdi-lock-alert", url:"/lock"},
-        {title:"Мод", icon:"mdi-cellphone-arrow-down", url:"/mod"},
+        {title:"Объявления", icon:"mdi-cellphone-arrow-down", url:"/new"},
       ]
       }
     }
