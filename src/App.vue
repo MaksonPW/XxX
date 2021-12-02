@@ -14,7 +14,7 @@
     <v-divider></v-divider>
     <v-list dense>
       <v-list-item-group>
-        <v-list-item style="color: #000000" v-for="link in menu" :key="link.title">
+        <v-list-item style="color: #000000" v-for="link in menu" :key="link.title" :to="link.url">
           <v-list-item-icon>
             <v-icon>{{ link.icon }}</v-icon>
           </v-list-item-icon>
@@ -29,11 +29,11 @@
     <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn v-for="link in links" :key="link.title" text><v-icon left>{{ link.icon }}</v-icon>{{ link.title }}</v-btn>
+        <v-btn v-for="link in links" :key="link.title" :to="link.url" text><v-icon left>{{ link.icon }}</v-icon>{{ link.title }}</v-btn>
       </v-toolbar-items>
     </v-app-bar>
   <v-main style="background: #28d2de" >
-
+    <router-view></router-view>
   </v-main>
 
     
