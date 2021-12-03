@@ -52,7 +52,7 @@
       ],
       menu: [
         {title:"Мои заказы", icon:"mdi-badge-account-horizontal", url:"/list"},
-        {title:"Банковские счета", icon:"mdi-bank-outline", url:"/bank"},
+        {title:"Подать объявление", icon:"mdi-bank-outline", url:"/ad/:id"},
         {title:"Защита аккаунта", icon:"mdi-lock-alert", url:"/lock"},
         {title:"Объявления", icon:"mdi-cellphone-arrow-down", url:"/new"},
       ]
