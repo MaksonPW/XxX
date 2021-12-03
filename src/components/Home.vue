@@ -61,7 +61,7 @@ export default {
           title:"First",
           desc:"First Desc",
           promo: true,
-          src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+          src: "http://d.zaix.ru/s2SA.jpg",
           id:"1"
         },
         {

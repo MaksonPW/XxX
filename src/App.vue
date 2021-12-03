@@ -51,7 +51,7 @@
         {title:"Вход", icon:"mdi-account-arrow-right", url:"/login"},
       ],
       menu: [
-        {title:"Статистика", icon:"mdi-badge-account-horizontal", url:"/stats"},
+        {title:"Мои заказы", icon:"mdi-badge-account-horizontal", url:"/list"},
         {title:"Банковские счета", icon:"mdi-bank-outline", url:"/bank"},
         {title:"Защита аккаунта", icon:"mdi-lock-alert", url:"/lock"},
         {title:"Объявления", icon:"mdi-cellphone-arrow-down", url:"/new"},
