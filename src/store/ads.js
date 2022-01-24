@@ -4,7 +4,7 @@ export default {
                 title:"First",
                 desc:"First Desc",
                 promo: true,
-                src: "http://d.zaix.ru/s2SA.jpg",
+                src: "https://imgur.com/s6tjO9S",
                 id:"1"
             },
             {
@@ -31,8 +31,17 @@ export default {
 
         ]
     },
-    mutations: {},
-    actions: {},
+    mutations: {
+        createAd(state, payload){
+            state.ads.push(payload)
+        }
+    },
+    actions: {
+        createAd({commit},payload){
+            payload.id = Math.random()
+            commit('createAd', payload)
+        }
+    },
     getters: {ads(state) {
             return state.ads
         },
